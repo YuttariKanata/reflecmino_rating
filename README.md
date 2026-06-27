@@ -81,7 +81,7 @@ $$Prox_{\text{mino}}(s) = \frac{1}{1 + \text{distances}[i]}$$
 
 現在の盤面のレーザースコア（`laser_score`）が、正解状態の最大スコアにどれだけ肉薄しているかを評価します。
 
-$$Prox_{\text{laser}}(s) = \frac{\text{scores}[i].\text{laser\_score}}{\text{max\_laser\_score}}$$
+$$Prox_{\text{laser}}(s) = \frac{\text{scores}[i].\text{laser score}}{\text{max laser score}}$$
 
 * レーザーが正解ルートを完璧に捉えているとき、機能的近さは $1.0$ になります。
 * 最後の1枚の鏡の向きだけが違っていて、途中まで完璧に光が流れている「おあつらえ向きの罠盤面」では、この値は $0.9$ などの非常に高い値になります。
